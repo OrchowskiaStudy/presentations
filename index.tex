@@ -1,0 +1,60 @@
+\documentclass[usenames,dvipsnames]{beamer}
+\usetheme{Singapore}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+
+\title{Analyze of architecture of presentation layer in microservices applications}
+\subtitle{with microfrontend}
+\author{Aleksander Orchowski}
+\institute{University of Zielona Góra}
+\date{Promoter: Dr Grzegorz Bazydło}
+
+\setbeamertemplate{footline}
+{
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.70\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.1\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+			\insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+	\end{beamercolorbox}}%
+	\vskip0pt%
+}
+\makeatother
+
+\begin{document}
+\input{titlePage.tex}
+
+\input{introduction.tex}
+
+\input{currentFrontend.tex}
+
+\input{microfrontends.tex}
+
+\input{diploma.tex}
+\section{End}
+\begin{frame}[t]
+\frametitle{Questions?}
+\end{frame}
+%\section{Next}
+%\begin{frame}
+%\frametitle{Outline}
+%\end{frame}
+%
+%
+%\subsection{Subsection1}
+%\begin{frame}
+%\frametitle{Outline}
+%\end{frame}
+%
+%
+%\subsection{Subsection2}
+%\begin{frame}
+%\frametitle{Outline}
+%\end{frame}
+
+\end{document}
