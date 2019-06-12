@@ -152,7 +152,15 @@
     stworzone plany produkcyjne mogą być modyfikowane na bieżąco w zależności od zaistniałych okoliczności.
     Pozwala to na reagowanie na takie zjawiska, jak nagłe zmiany zamówień spowodowane np. niespodziewanym
     załamaniem się rynku zbytu, poważne awarie urządzeń, braki lub niedobór zapasów surowców i półfabrykatów,
-    zmiany priorytetów produkcji, itd.
+    zmiany priorytetów produkcji, itd.Podejście terytorialne zakłada, że każdy z ekranów
+    synoptycznych systemu wizualizacji dostarcza informacji o
+    urządzeniu (lub grupie urządzeń) zlokalizowanych w jednym miejscu
+    instalacji i nadzorowanych przez jeden sterownik (lub grupę
+    sterowników) przemysłowy.
+    Zaleta: ograniczanie transferu informacji o stanie zmiennych przez
+    sieci przemysłowe i dostosowanie scenariusza wymian sieciowych do
+    wymagań aktualnie prezentowanego ekranu graficznego.
+    
        \subsection{POZIOM IV: SYSTEMY ERP LUB MRP}
        	
        	\begin{itemize}
@@ -164,7 +172,7 @@
        	\item Obejmują tzw. systemy biurowe przedsiębiorstwa, które nie są bezpośrednio
        	związane z produkcją, ale stanowią zaplecze logistyczne dla funkcjonowania
        	wydziałów produkcyjnych.
-       	       	\end{itemize}
+       	       	\end{itemize}5
        	Należy pamiętać, że granice pomiędzy poszczególnymi warstwami są czysto
        	umowne i zależnie od implementacji systemu dana funkcjonalność może być
        	realizowana na różnych poziomach.
@@ -201,7 +209,29 @@
 	SuiteLink.
 	
 	\section{Przedstaw podejście terytorialne i technologiczne stosowane podczas projektowania	ekranów synoptycznych systemów wizualizacji.}
+\textbf{	Podejście terytorialne} zakłada, że każdy z ekranów
+	synoptycznych systemu wizualizacji dostarcza informacji o
+	urządzeniu (lub grupie urządzeń) zlokalizowanych w jednym miejscu
+	instalacji i nadzorowanych przez jeden sterownik (lub grupę
+	sterowników) przemysłowy.
+	\textit{\textbf{Zaleta:}} ograniczanie transferu informacji o stanie zmiennych przez
+	sieci przemysłowe i dostosowanie scenariusza wymian sieciowych do
+	wymagań aktualnie prezentowanego ekranu graficznego.
+	
+	
+	\textbf{Podejście technologiczne }zakłada grupowanie danych ze względu na
+	ich powiązanie z określonymi fragmentami technologii. Informacje (np.
+	parametry energetyczne z poszczególnych urządzeń) mogą pochodzić z
+	różnych (często odległych) fragmentów instalacji. Ich grupowanie może być
+	spowodowane nadzorowaniem nadrzędnym gospodarki energią na obszarze
+	całego przedsiębiorstwa.
+	\textbf{\textit{Rozproszenie terytorialne }}może znacznie komplikować pozyskiwanie
+	informacji i ich przesyłanie w sieciach przemysłowych a także ich bieżące
+	dostosowanie do potrzeb aktualnie prezentowanego ekranu graficznego.
+	
 	\section{Przedstaw podejście hierarchiczne stosowane podczas projektowania systemów	ekranów synoptycznych systemów wizualizacji.}
+	
+	
 	\section{Przedstaw proces (procedurę) projektowania systemu wizualizacji (diagram).}
 	\section{ Przedstaw zalety i wady stosowania paneli operatorskich w systemach wizualizacji.}
 	\section{ Omów budowę sterownika PLC w postaci kompaktowej i modułowej.}
