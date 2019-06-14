@@ -235,7 +235,61 @@
 	\section{Przedstaw proces (procedurę) projektowania systemu wizualizacji (diagram).}
 	\section{ Przedstaw zalety i wady stosowania paneli operatorskich w systemach wizualizacji.}
 	\section{ Omów budowę sterownika PLC w postaci kompaktowej i modułowej.}
+	\textbf{Sterowniki  Kompaktowe}
+	
+	• Konstrukcja kompaktowa  zawiera w sobie kompletny sterownik, składający się z CPU, zasilacza, modułu wejść/wyjść i modułu łącza szeregowego.
+	
+	• Tego typu konstrukcja stosowana jest przeważnie do budowy sterowników małych.
+	
+	• Zaletą jej jest prosta konstrukcja i łatwy montaż.
+	
+	• Tego typu sterowniki posiadają możliwość rozbudowy. Realizowane jest to poprzez dołączenie dodatkowego bloku rozszerzającego, w którym znajdują się dodatkowe układy wejść/wyjść.
+	
+	\textbf{Sterowniki Modułowe}
+	
+	• Konstrukcja modułowa jest przeznaczona do zastosowań gdzie użytkownik sam dobiera konfiguracje sterownika.
+	
+	• Umieszcza on w specjalnej obudowie poszczególne panele z modułami funkcjonalnymi, takimi jak: jednostka centralna, pamięci czy moduły wejść/wyjść.
+	
+	• Konstrukcja panelowa stosowana jest głównie do sterowników średnich i dużych. Rozbudowa sterownika realizowana jest poprzez dodanie dodatkowej obudowy, gdzie można umieszczać układy wejścia/wyjścia.
+	
 	\section{ Przedstaw budowę CPU sterownika PLC.}
+	
+	Budowa sterownikaSterowniki PLC są to komputery przemysłowe, które umożliwiają sterowanie pracą maszyn i urządzeń (w układzie otwartym i/lub zamkniętym). Maja one architekturę klasycznego komputera, na którą składają się:
+	
+	• jednostka centralna CPU (ang. Central Processing Unit) wraz z pamięcią;
+	
+	• moduły wejściowe i wyjściowe, przy użyciu których dochodzi do wymiany danych pomiędzy otoczeniem i komputerem.
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=0.7\linewidth]{cpu}
+		\caption{Schemat jednostki centralnej}
+		\label{fig:cpu}
+	\end{figure}
+	
+	Jednostka centralna zawiera wewnątrz:
+	
+	a)procesor - prawie wszystkie sterowniki znajdujące się na rynku bazują na procesorach 16-bitowych, stąd słowo w sterownikach jest 16-bitowe, a wejście analogowe o rozdzielczości 10 lub 12 bitów zajmuje kanał 16 bitowy;
+	
+	b)pamięć operacyjną (ROM ang. Read-Only Memory) – trwałą pamięć, w której znajduje się system operacyjny (program systemowy, oprogramowanie systemowe) czyli zestaw programów sterujących i zarządzających działaniem sterownika (komunikacja z programistą, obsługa urządzeń zewnętrznych, zarządzanie danymi itd.), a także ostatnio pamięć bloków funkcji, parametry (ang. set-up) sterownika są w pamięci flash;
+	18Budowa jednostki centralnej
+	
+	c)pamięć programu (RAM ang. Random Access Memory) –zapisywalna pamięć podtrzymywana bateryjnie w której znajdują się obszary:·programu użytkownika w kilokrokach (kS), rzędu 5..30 kS, ale w dużych sterownikach do 400 kS, często składający się z kilku zadań, dawniej w zbliżonych jednostkach (kW),
+	
+	· danych sterownika,
+	
+	· danych systemowych,
+	
+	· danych o zegarach, licznikach, znacznikach,
+	
+	· odwzorowania procesu, czyli obrazu wejść i wyjść,
+	
+	· danych dla urządzeń zewnętrznych
+	
+	. Wszystkie te dane umieszczone są w pamięci danych rzędu 30 kW, choć w dużych sterownikach do 500 kW.
+	
+	d) moduły z wejściami/wyjściami cyfrowymi lub/i analogowymi albo moduły komunikacyjne (ang. Inner Board) –coraz częściej znajdują się w jednostkach centralnych.
 	
 \label{LastPage}
 \end{document}
