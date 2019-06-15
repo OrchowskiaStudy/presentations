@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Przedstaw podstawowe czynniki maj\IeC {\k a}ce wp\IeC {\l }yw na powstanie klasy system\IeC {\'o}w informatycznych okre\IeC {\'s}lanych jako systemy SCADA. }{1}% 
+\contentsline {section}{\numberline {2}Przedstaw podstawowe funkcje system\IeC {\'o}w SCADA.}{2}% 
+\contentsline {section}{\numberline {3}Scharakteryzuj cz\IeC {\k e}\IeC {\'s}\IeC {\'c} programow\IeC {\k a} oraz sprz\IeC {\k e}tow\IeC {\k a} system\IeC {\'o}w SCADA.}{2}% 
+\contentsline {section}{\numberline {4}Przedstaw powi\IeC {\k a}zanie systemu SCADA z obiektem sterowania, urz\IeC {\k a}dzeniami pomiarowo-steruj\IeC {\k a}cymi oraz innymi systemami informatycznymi w przedsi\IeC {\k e}biorstwie w uj\IeC {\k e}ciu hierarchicznym i zarazem rozproszonym (rys).}{3}% 
+\contentsline {section}{\numberline {5}Om\IeC {\'o}w klasy oprogramowania wykorzystywane na poszczeg\IeC {\'o}lnych poziomach informatycznej struktury system\IeC {\'o}w przemys\IeC {\l }owych.}{3}% 
+\contentsline {subsection}{\numberline {5.1}POZIOM I: STEROWANIE PRODUKCJ\IeC {\k A} W CZASIE RZECZYWISTYM}{3}% 
+\contentsline {subsection}{\numberline {5.2}POZIOM II: WIZUALIZACJA I NADZ\IeC {\'O}R NAD PROCESEM PRODUKCJI.}{3}% 
+\contentsline {subsection}{\numberline {5.3}POZIOM III: \IeC {\'S}LEDZENIE PRODUKCJI I MATERIA\IeC {\L }\IeC {\'O}W, OPTYMALIZACJA PROCESU}{4}% 
+\contentsline {subsection}{\numberline {5.4}POZIOM IV: SYSTEMY ERP LUB MRP}{5}% 
+\contentsline {section}{\numberline {6}Przedstaw struktur\IeC {\k e} systemu wizualizacji z wykorzystaniem przemys\IeC {\l }owych baz danych.}{5}% 
+\contentsline {section}{\numberline {7}Przedstaw podej\IeC {\'s}cie terytorialne i technologiczne stosowane podczas projektowania ekran\IeC {\'o}w synoptycznych system\IeC {\'o}w wizualizacji.}{6}% 
+\contentsline {section}{\numberline {8}Przedstaw podej\IeC {\'s}cie hierarchiczne stosowane podczas projektowania system\IeC {\'o}w ekran\IeC {\'o}w synoptycznych system\IeC {\'o}w wizualizacji.}{7}% 
+\contentsline {section}{\numberline {9}Przedstaw proces (procedur\IeC {\k e}) projektowania systemu wizualizacji (diagram).}{7}% 
+\contentsline {section}{\numberline {10} Przedstaw zalety i wady stosowania paneli operatorskich w systemach wizualizacji.}{7}% 
+\contentsline {section}{\numberline {11} Om\IeC {\'o}w budow\IeC {\k e} sterownika PLC w postaci kompaktowej i modu\IeC {\l }owej.}{7}% 
+\contentsline {section}{\numberline {12} Przedstaw budow\IeC {\k e} CPU sterownika PLC.}{7}% 
