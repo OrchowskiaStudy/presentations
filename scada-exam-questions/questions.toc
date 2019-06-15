@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {5.4}POZIOM IV: SYSTEMY ERP LUB MRP}{5}% 
 \contentsline {section}{\numberline {6}Przedstaw struktur\IeC {\k e} systemu wizualizacji z wykorzystaniem przemys\IeC {\l }owych baz danych.}{5}% 
 \contentsline {section}{\numberline {7}Przedstaw podej\IeC {\'s}cie terytorialne i technologiczne stosowane podczas projektowania ekran\IeC {\'o}w synoptycznych system\IeC {\'o}w wizualizacji.}{6}% 
-\contentsline {section}{\numberline {8}Przedstaw podej\IeC {\'s}cie hierarchiczne stosowane podczas projektowania system\IeC {\'o}w ekran\IeC {\'o}w synoptycznych system\IeC {\'o}w wizualizacji.}{7}% 
+\contentsline {section}{\numberline {8}Przedstaw podej\IeC {\'s}cie hierarchiczne stosowane podczas projektowania system\IeC {\'o}w ekran\IeC {\'o}w synoptycznych system\IeC {\'o}w wizualizacji.}{6}% 
 \contentsline {section}{\numberline {9}Przedstaw proces (procedur\IeC {\k e}) projektowania systemu wizualizacji (diagram).}{7}% 
 \contentsline {section}{\numberline {10} Przedstaw zalety i wady stosowania paneli operatorskich w systemach wizualizacji.}{7}% 
 \contentsline {section}{\numberline {11} Om\IeC {\'o}w budow\IeC {\k e} sterownika PLC w postaci kompaktowej i modu\IeC {\l }owej.}{7}% 
