@@ -67,7 +67,7 @@
 	
 	\section{Scharakteryzuj część programową oraz sprzętową systemów SCADA.}
 	\begin{itemize}
-		\item Część programowa
+		\item Część sprzętowa
 		  \subitem komputery PC
 		  \subitem sterownik PLC lub/i kontrolery PAC,
 		  \subitem panele operatorskie
@@ -75,7 +75,7 @@
 		  \subitem elementy wykonawcze (zawory, regulatory),
 		  \subitem  urządzenia i okablowanie
 		  \subitem sieci LAN oraz sieci przemysłowe		  
-	    \item Część sprzętowa
+	    \item Część programowa
 		  \subitem system operacyjny
 		  \subitem oprogramowanie
 		  \subitem narzędziowe do tworzenia aplikacji typu HMI/SCADA
@@ -185,31 +185,24 @@
 		\label{fig:industrialsql}
 	\end{figure}
 	
-	• IndustrialSQL Server jest rozszerzeniem Microsoft SQL Serwera, który
-	został wzbogacony o odpowiednie mechanizmy pobierania danych z PLCbuforowania ich, przechowywania i efektywnego ich odczytywania.
+	\begin{itemize}
+		\item IndustrialSQL Server jest rozszerzeniem Microsoft SQL Serwera, który został wzbogacony o odpowiednie mechanizmy pobierania danych z PLCbuforowania ich, przechowywania i efektywnego ich odczytywania.
 	
-	• Jest uzupełnieniem aplikacji wizualizacyjnych.
+		\item Jest uzupełnieniem aplikacji wizualizacyjnych.
 	
-	• IndustrialSQL Server zbiera informacje i rejestruje je w bazie danych,
-	dostarczając automatykom i technologom bazy danych do tworzenia
-	dowolnych raportów, zestawień, wykresów i analiz.
+		\item IndustrialSQL Server zbiera informacje i rejestruje je w bazie danych, dostarczając automatykom i technologom bazy danych do tworzenia dowolnych raportów, zestawień, wykresów i analiz.
 	
-	• Wraz z serwerem IndustrialSQL, który jest głównym elementem
-	systemu, otrzymujemy kilka narzędzi klienckich do analizy danych.
+		\item Wraz z serwerem IndustrialSQL, który jest głównym elementem systemu, otrzymujemy kilka narzędzi klienckich do analizy danych.
 	
-	• Dzięki pokrewieństwu IndustrialSQL Server z serwerem Microsoft SQL
-	możliwa jest wymiana informacji z innymi systemami baz danych.
+		\item Dzięki pokrewieństwu IndustrialSQL Server z serwerem Microsoft SQL możliwa jest wymiana informacji z innymi systemami baz danych.
 	
-	• IndustrialSQL Server bardzo dobrze współpracuje z oprogramowaniem
-	InTouch, co jest naturalne, jako że stanowią elementy tego samego
-	zintegrowanego pakietu dla przemysłu.
+		\item IndustrialSQL Server bardzo dobrze współpracuje z oprogramowaniem InTouch, co jest naturalne, jako że stanowią elementy tego samego zintegrowanego pakietu dla przemysłu.
 	
-	• Produkt ten można stosować wszędzie tam, gdzie dane pomiarowe,
-	które chcemy rejestrować, dostępne są poprzez protokół DDE, OPC czy
-	SuiteLink.
+		\item Produkt ten można stosować wszędzie tam, gdzie dane pomiarowe, które chcemy rejestrować, dostępne są poprzez protokół DDE, OPC czy SuiteLink.
+	\end{itemize}
 	
 	\section{Przedstaw podejście terytorialne i technologiczne stosowane podczas projektowania	ekranów synoptycznych systemów wizualizacji.}
-\textbf{	Podejście terytorialne} zakłada, że każdy z ekranów
+	\textbf{Podejście terytorialne} zakłada, że każdy z ekranów
 	synoptycznych systemu wizualizacji dostarcza informacji o
 	urządzeniu (lub grupie urządzeń) zlokalizowanych w jednym miejscu
 	instalacji i nadzorowanych przez jeden sterownik (lub grupę
@@ -230,36 +223,52 @@
 	dostosowanie do potrzeb aktualnie prezentowanego ekranu graficznego.
 	
 	\section{Przedstaw podejście hierarchiczne stosowane podczas projektowania systemów	ekranów synoptycznych systemów wizualizacji.}
+	Podejście hierarchicznego podziału ekranów graficznych wykorzystuje metodę kolejnych przybliżeń, gdzie stopniowo – w zależności od bieżących potrzeb – operator może przejść od ekranu prezentującego informacje ogólne (o największym poziomie agregacji) do najbardziej szczegółowych ekranów danego procesu (obiektu) – wycinka kontrolowanej instalacji technologicznej.
 	
+	Projektowanie hierarchiczne zakłada umieszczenie na ekranie głównym symbolicznego opisu całego obiektu. Stan poszczególnych podprocesów jest prezentowany na niej w sposób syntetyczny poprzez atrybuty związane z poszczególnymi urządzeniami i zespołami urządzeń.
 	
 	\section{Przedstaw proces (procedurę) projektowania systemu wizualizacji (diagram).}
 	\section{ Przedstaw zalety i wady stosowania paneli operatorskich w systemach wizualizacji.}
 	\section{ Omów budowę sterownika PLC w postaci kompaktowej i modułowej.}
 	\textbf{Sterowniki  Kompaktowe}
 	
-	• Konstrukcja kompaktowa  zawiera w sobie kompletny sterownik, składający się z CPU, zasilacza, modułu wejść/wyjść i modułu łącza szeregowego.
+	\begin{itemize}
 	
-	• Tego typu konstrukcja stosowana jest przeważnie do budowy sterowników małych.
+	\item Konstrukcja kompaktowa  zawiera w sobie kompletny sterownik, składający się z CPU, zasilacza, modułu wejść/wyjść i modułu łącza szeregowego.
 	
-	• Zaletą jej jest prosta konstrukcja i łatwy montaż.
+	\item Tego typu konstrukcja stosowana jest przeważnie do budowy sterowników małych.
 	
-	• Tego typu sterowniki posiadają możliwość rozbudowy. Realizowane jest to poprzez dołączenie dodatkowego bloku rozszerzającego, w którym znajdują się dodatkowe układy wejść/wyjść.
+	\item Zaletą jej jest prosta konstrukcja i łatwy montaż.
+	
+	\item Tego typu sterowniki posiadają możliwość rozbudowy. Realizowane jest to poprzez dołączenie dodatkowego bloku rozszerzającego, w którym znajdują się dodatkowe układy wejść/wyjść.
+	
+	\end{itemize}
 	
 	\textbf{Sterowniki Modułowe}
 	
-	• Konstrukcja modułowa jest przeznaczona do zastosowań gdzie użytkownik sam dobiera konfiguracje sterownika.
+	\begin{itemize}
+		
+	\item Konstrukcja modułowa jest przeznaczona do zastosowań gdzie użytkownik sam dobiera konfiguracje sterownika.
 	
-	• Umieszcza on w specjalnej obudowie poszczególne panele z modułami funkcjonalnymi, takimi jak: jednostka centralna, pamięci czy moduły wejść/wyjść.
+	\item Umieszcza on w specjalnej obudowie poszczególne panele z modułami funkcjonalnymi, takimi jak: jednostka centralna, pamięci czy moduły wejść/wyjść.
 	
-	• Konstrukcja panelowa stosowana jest głównie do sterowników średnich i dużych. Rozbudowa sterownika realizowana jest poprzez dodanie dodatkowej obudowy, gdzie można umieszczać układy wejścia/wyjścia.
+	\item Konstrukcja panelowa stosowana jest głównie do sterowników średnich i dużych. Rozbudowa sterownika realizowana jest poprzez dodanie dodatkowej obudowy, gdzie można umieszczać układy wejścia/wyjścia.
+	
+	\end{itemize}
 	
 	\section{ Przedstaw budowę CPU sterownika PLC.}
 	
-	Budowa sterownikaSterowniki PLC są to komputery przemysłowe, które umożliwiają sterowanie pracą maszyn i urządzeń (w układzie otwartym i/lub zamkniętym). Maja one architekturę klasycznego komputera, na którą składają się:
+	Budowa sterownika
 	
-	• jednostka centralna CPU (ang. Central Processing Unit) wraz z pamięcią;
+	Sterowniki PLC są to komputery przemysłowe, które umożliwiają sterowanie pracą maszyn i urządzeń (w układzie otwartym i/lub zamkniętym). Maja one architekturę klasycznego komputera, na którą składają się:
 	
-	• moduły wejściowe i wyjściowe, przy użyciu których dochodzi do wymiany danych pomiędzy otoczeniem i komputerem.
+	\begin{itemize}
+		
+	\item jednostka centralna CPU (ang. Central Processing Unit) wraz z pamięcią;
+	
+	\item moduły wejściowe i wyjściowe, przy użyciu których dochodzi do wymiany danych pomiędzy otoczeniem i komputerem.
+	
+	\end{itemize}
 	
 	\begin{figure}[!htb]
 		\centering
@@ -270,12 +279,13 @@
 	
 	Jednostka centralna zawiera wewnątrz:
 	
-	a)procesor - prawie wszystkie sterowniki znajdujące się na rynku bazują na procesorach 16-bitowych, stąd słowo w sterownikach jest 16-bitowe, a wejście analogowe o rozdzielczości 10 lub 12 bitów zajmuje kanał 16 bitowy;
+	\begin{itemize}
+		
+	\item procesor - prawie wszystkie sterowniki znajdujące się na rynku bazują na procesorach 16-bitowych, stąd słowo w sterownikach jest 16-bitowe, a wejście analogowe o rozdzielczości 10 lub 12 bitów zajmuje kanał 16 bitowy;
 	
-	b)pamięć operacyjną (ROM ang. Read-Only Memory) – trwałą pamięć, w której znajduje się system operacyjny (program systemowy, oprogramowanie systemowe) czyli zestaw programów sterujących i zarządzających działaniem sterownika (komunikacja z programistą, obsługa urządzeń zewnętrznych, zarządzanie danymi itd.), a także ostatnio pamięć bloków funkcji, parametry (ang. set-up) sterownika są w pamięci flash;
-	18Budowa jednostki centralnej
+	\item pamięć operacyjną (ROM ang. Read-Only Memory) - trwałą pamięć, w której znajduje się system operacyjny (program systemowy, oprogramowanie systemowe) czyli zestaw programów sterujących i zarządzających działaniem sterownika (komunikacja z programistą, obsługa urządzeń zewnętrznych, zarządzanie danymi itd.), a także ostatnio pamięć bloków funkcji, parametry (ang. set-up) sterownika są w pamięci flash;
 	
-	c)pamięć programu (RAM ang. Random Access Memory) –zapisywalna pamięć podtrzymywana bateryjnie w której znajdują się obszary:·programu użytkownika w kilokrokach (kS), rzędu 5..30 kS, ale w dużych sterownikach do 400 kS, często składający się z kilku zadań, dawniej w zbliżonych jednostkach (kW),
+	\item pamięć programu (RAM ang. Random Access Memory) - zapisywalna pamięć podtrzymywana bateryjnie w której znajdują się obszary:·programu użytkownika w kilokrokach (kS), rzędu 5..30 kS, ale w dużych sterownikach do 400 kS, często składający się z kilku zadań, dawniej w zbliżonych jednostkach (kW),
 	
 	· danych sterownika,
 	
@@ -289,7 +299,9 @@
 	
 	. Wszystkie te dane umieszczone są w pamięci danych rzędu 30 kW, choć w dużych sterownikach do 500 kW.
 	
-	d) moduły z wejściami/wyjściami cyfrowymi lub/i analogowymi albo moduły komunikacyjne (ang. Inner Board) –coraz częściej znajdują się w jednostkach centralnych.
+	\item moduły z wejściami/wyjściami cyfrowymi lub/i analogowymi albo moduły komunikacyjne (ang. Inner Board) –coraz częściej znajdują się w jednostkach centralnych.
+	
+	\end{itemize}
 	
 \label{LastPage}
 \end{document}
