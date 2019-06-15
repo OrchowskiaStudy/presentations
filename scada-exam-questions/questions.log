@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.5.29)  15 JUN 2019 07:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.5.29)  15 JUN 2019 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,19 +565,19 @@ File: industrialSQL.png Graphic file (type png)
 <use industrialSQL.png>
 Package pdftex.def Info: industrialSQL.png  used on input line 183.
 (pdftex.def)             Requested size: 328.82707pt x 221.75056pt.
-
-Overfull \hbox (6.97946pt too wide) in paragraph at lines 211--211
+[5]
+Overfull \hbox (6.97946pt too wide) in paragraph at lines 204--204
 []\OT4/cmr/bx/n/14.4 Przedstaw po-dej-±cie te-ry-to-rial-ne i tech-no-lo-gicz-n
 e sto-so-wa-ne pod-
  []
 
-[5] [6 <./industrialSQL.png (PNG copy)>]
-<cpu.png, id=30, 325.81725pt x 336.65775pt>
+[6 <./industrialSQL.png (PNG copy)>] [7]
+<cpu.png, id=34, 325.81725pt x 336.65775pt>
 File: cpu.png Graphic file (type png)
 <use cpu.png>
-Package pdftex.def Info: cpu.png  used on input line 266.
+Package pdftex.def Info: cpu.png  used on input line 298.
 (pdftex.def)             Requested size: 328.82707pt x 339.76991pt.
- [7] [8 <./cpu.png>] (./questions.aux) ) 
+ [8 <./cpu.png>] [9] (./questions.aux) ) 
 Here is how much of TeX's memory you used:
  12522 strings out of 492616
  230145 string characters out of 6135177
@@ -593,10 +593,10 @@ ype1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.p
 fb></usr/share/texmf-dist/fonts/type1/public/pl/plbxti10.pfb></usr/share/texmf-
 dist/fonts/type1/public/pl/plr10.pfb></usr/share/texmf-dist/fonts/type1/public/
 pl/plr7.pfb>
-Output written on questions.pdf (8 pages, 971504 bytes).
+Output written on questions.pdf (9 pages, 973616 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
