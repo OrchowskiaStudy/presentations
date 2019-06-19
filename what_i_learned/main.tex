@@ -1,0 +1,33 @@
+\documentclass{book}
+\usepackage{polski}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+\renewcommand{\chaptername}{Kategoria}
+\newcommand{\headsection}{\leftmark}   
+
+
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\headsection}
+\rfoot{\thepage/\pageref{LastPage}}
+\lfoot{Aleksander Orchowski}
+\cfoot{\LaTeX}
+
+\title{What I learned}
+\author{Aleksander Orchowski}
+
+\begin{document}
+    \input{title.tex}
+    
+	\tableofcontents	
+	\input{legacy/legacy.tex}
+
+	\label{LastPage}
+\end{document}}
