@@ -1,2 +1,16 @@
 \chapter{Do uporządkowania}
 Tu znajdują się rzeczy które nie znalazły jeszcze swojej kategorii i czekają na nią, oraz uporządkowanie.
+
+
+\section{Architektura aplikacji}
+To jest raczej moje przemyślenie odnośnie wytwarzania aplikacji ich struktury i działania.
+
+Bardzo spodobało mi się podejście czy też filozofia UNIX. Ma ona kilka założeń które stoją u podstaw tego wspaniałego ekosystemu.
+Co prawda nie można do końca tego tak spłycać, ale zauważyć można pewną prawidłowość odnoszącą się do wytwarzania systemów i ewolucji w stronę mikroserwisów.
+
+	\begin{itemize}
+		\item Każdy program powinien robić jedną rzecz. Lepiej zrobić kolejny program niż komplikować obecny.
+		\item Spodziewaj się że output z jednego programu będzie inputem dla innego - nieznanego programu. Niech output będzie więc lakoniczny.
+		\item Buduj oprogramowanie tak aby mogły być wypróbowane wcześnie, nawet jeśli nie wszystko jest jeszcze dopracowane. Zawsze można wyrzucić niepotrzebne fragmenty i je przebudować.
+		\item Jeśli potrzebujesz narzędzi to je buduj, nawet jeśli ci nie po drodze. To ci pomoże przy programowaniu. Udostępnij je później, lub wyrzyć jeśli nie przynoszą wartości.(automatyzacja)
+	\end{itemize}
