@@ -1,5 +1,54 @@
 hello TTPSC!
-Today's topic is:
+Dzisiaj będziemy mówić o
 SUCKLESS
 
-@nyan.png
+Ale zacznijmy od początku. 
+Jest nim filozofia systemów z rodziny 
+UNIX/LINUX
+
+Unix ma kilka fajnych konceptów dotyczących
+programów, oto one:
+
+1. Jeden program powinien robić jedną rzecz
+ale dobrze. W związku z tym nie powinien być skomplikowany.
+Chcesz dodatkową funkcjonalność?
+Zrób sobie nowy program
+
+
+2. Traktuj output swojego programu
+jako input do innego!
+
+3. Dostarczaj oprogramowanie - szybko
+oprogramowanie zawsze możesz poprawić.
+No i rób to - poprawiaj!
+
+4. Automatyzuj sobie pracę. Buduj narzędzia
+a potem udostępniaj je innym.
+Jak jednak jakieś jest kiepskie - po prostu zatrzyj ślady 
+po jego istnieniu, tylko najpierw upewnij się że nikt go nie używa.
+
+
+Proste?
+
+
+I właśnie o to chodzi!
+
+Suckless jest czymś bardzo podobnym. 
+Opiera się o filozofię UNIX, a dodatkowo 
+kładzie nacisk na JAKOŚĆ oprogramowania, 
+oraz jego minimalizm.
+
+
+Jak to się ma do naszej pracy 
+i codziennego życia?
+
+
+cat < test.file | grep "thingworx smells the worst" | tr a-z A-Z > out.txt
+
+
+OK, a teraz czas na kilka
+przykładów...
+
+mikroserwisy?
+
+@index.png
