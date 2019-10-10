@@ -1,13 +1,10 @@
 \documentclass[usenames,dvipsnames]{beamer}
-\usetheme{Singapore}
+
+\usetheme{boxes}
 \usepackage[utf8]{inputenc}
-\usepackage[dvipsnames]{xcolor}
-pacz
-\title{Analyze of architecture of presentation layer in microservices applications}
-\subtitle{with microfrontend}
-\author{inż. Aleksander Orchowski}
-\institute{University of Zielona Góra}
-\date{Promoter: Dr Grzegorz Bazydło}
+\title{And what if microservices are just the beginning?}
+\subtitle{Micro... frontends?}
+\author{Aleksander Orchowski}
 
 \setbeamertemplate{footline}
 {
@@ -20,8 +17,7 @@ pacz
 			\usebeamerfont{title in head/foot}\insertshorttitle
 		\end{beamercolorbox}%
 		\begin{beamercolorbox}[wd=.1\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
-			27.04.2019
-			
+				
 			\insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
 	\end{beamercolorbox}}%
 	\vskip0pt%
@@ -32,31 +28,24 @@ pacz
 \input{titlePage.tex}
 
 \input{introduction.tex}
-
+ 
 \input{currentFrontend.tex}
 
 \input{microfrontends.tex}
 
-\input{diploma.tex}
+\input{demo.tex}
+
+\input{devops.tex}
+
 \section{End}
 \begin{frame}[t]
 \frametitle{Questions?}
-\end{frame}
-%\section{Next}
-%\begin{frame}
-%\frametitle{Outline}
-%\end{frame}
-%
-%
-%\subsection{Subsection1}
-%\begin{frame}
-%\frametitle{Outline}
-%\end{frame}
-%
-%
-%\subsection{Subsection2}
-%\begin{frame}
-%\frametitle{Outline}
-%\end{frame}
+\begin{figure}		
+	\begin{itemize}
+		\item My blog page: https://orchowskia.com
+		\item Twitter: @orchowski
+	\end{itemize}
+\end{figure}
 
+\end{frame}
 \end{document}
