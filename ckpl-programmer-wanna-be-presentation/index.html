@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="description" content="Prezentacja Cinkciarz.pl dla studentów">
+	<meta name="author" content="Aleksander Orchowski">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css" id="theme">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+						# Jak zostać programistą, czyli
+						##  Programmer "wanna be"
+
+						#### Autor: Aleksander Orchowski
+					</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+						##  O czym sobie opowiemy?
+						- Jak wygląda dzień z życia programisty?
+						- Jak i czego się uczyć?						
+						- Używane na co dzień narzędzia						
+						- Dobre praktyki
+					</textarea>
+			</section>
+			<section>
+				<h2> Dzień z życia... </h2>
+				<ol>
+					<li> Włączamy komputer...
+						<br>
+						<img width="150px" src="./data/images/on-comp.png" />
+					</li>
+
+					<li> Robimy kawę...
+						<br>
+						<img height="150px" src="./data/images/coffe.jpg" />
+					</li>
+
+					<li> Kodujemy!!!
+						<br>
+						<p class="fragment">
+							Ale w sumie to zależy :)
+						</p>
+					</li>
+
+				</ol>
+			</section>
+			<section>
+				<img height="600px" src="./data/images/work-meme.jpg" />
+				<br>
+				<h2> Główne zadanie to, wbrew pozorom, nie pisanie kodu. </h2>
+				<i>Kod to często tylko efekt uboczny pracy programisty</i>
+			</section>
+			<section>
+				<h2> Współpraca z ludźmi w rozwiązywaniu problemów </h2>
+				<img style="border: none;background: none;" src="./data/images/cooperation.png" />
+				<br>
+				<ul>
+					<li class="fragment">z programistami</li>
+					<li class="fragment">z innymi zespołami</li>
+					<li class="fragment">z biznesem</li>
+					<li class="fragment">z innymi firmami</li>
+				</ul>
+			</section>
+			<section>
+				<h2> Programista nie walczy jedynie z problemami technicznymi </h2>
+				<p class="fragment">
+					Nie tworzymy oprogramowania. Tworzymy produkt.
+				</p>
+				<p class="fragment">
+					Pomaga nam w tym: Domain-driven design (DDD)
+				</p>
+			</section>
+			<section>
+				<h2> Przychodzimy na 8:00 i kiedy kończymy pracę? </h2>
+			</section>
+			<section>
+				<h1> Zazwyczaj nie kończymy </h1>
+			</section>
+			<section>
+				<h2> Praca programisty to ciągła nauka </h2>
+				<p class="fragment">
+					By rozwiązać problem, trzeba posiąść wiedzę na temat wielu dostępnych technologii, możliwości i
+					podejść do rozwiązywania problemów.
+					Bo przecież nie tylko piszemy kod, ale też rozmawiamy, testujemy, projektujemy, czy wdrażamy.
+					Wszystko to można zrobić na wiele sposobów zależnie od potrzeb i funduszy.
+				</p>
+			</section>
+
+			<section>
+				<h2>Jak się więc uczyć?</h2>
+			</section>
+			<section>
+				<section>
+					<h2>Wytycz sobie <a href="https://github.com/kamranahmedse/developer-roadmap">ścieżkę</a></h2>
+				</section>
+				<section>
+					<img src="./data/images/backend-road.png" />
+				</section>
+			</section>
+			<section>
+				<h2>Soft/Hard skills</h2>
+				<h3>W co inwestować?</h3>
+				<h2 class="fragment">Oczywiście we wszystko <span class="fragment">:(</span></h2>
+			</section>
+			<section>
+				<h2>
+					Soft skille przede wszystkim
+				</h2>
+			</section>
+			<section>
+				<h3>Jak się uczyć?</h3>
+				<ul>
+					<li class="fragment">KSIĄŻKI</li>
+					<li class="fragment">Projekty</li>
+					<li class="fragment"> ^ Just in time</li>
+					<li class="fragment">Podcasty</li>
+					<li class="fragment">Blogi</li>
+					<li class="fragment">Meetupy</li>
+					<li class="fragment">Konferencje (Greenfield)</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Narzędzia:</h3>
+				<ul>
+					<li>GIT</li>
+					<li>IDE</li>					
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			width: 1920,
+			height: 1080,
+			transition: 'convex',
+			// parallaxBackgroundImage: './data/images/bg.jpg',
+			// parallaxBackgroundSize: '1920px 1080px',
+			pdfMaxPagesPerSlide: 1,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+		Reveal.configure({})
+	</script>
+</body>
+
+</html>
